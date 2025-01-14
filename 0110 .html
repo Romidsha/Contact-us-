@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحه ارتباط با ما</title>
+  <!-- افزودن فونت دلخواه -->
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --main-bg: url('file:///C:/Users/Admin/Desktop/photo_2024-12-21_07-09-14.jpg'); /* بک‌گراند اصلی */
+      --header-bg: url('file:///C:/Users/Admin/Desktop/Untitled-2.png'); /* بک‌گراند هدر */
+
+    }
+
+    /* تنظیمات کلی صفحه */
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: var(--main-bg); /* استفاده از متغیر بک‌گراند اصلی */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #333;
+    }
+
+    /* تنظیمات هدر */
+    header {
+      background-image: var(--header-bg); /* استفاده از متغیر بک‌گراند هدر */
+      background-size: cover;
+      background-position: center;
+      padding: 50px 20px;
+      text-align: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    }
+
+    header img {
+      max-width: 200px; /* لوگو */
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    /* استایل بخش کلیدها */
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px auto;
+      max-width: 400px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .button {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* استایل برای هر نوع کلید */
+    .whatsapp {
+      background-color: #25D366;
+    }
+
+    .instagram {
+      background-color: #E1306C;
+    }
+
+    .contact {
+      background-color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+  <!-- هدر -->
+  <header>
+    <img src="file:///C:/Users/Admin/Desktop/05.png" alt="لوگو">
+    <h1>ارتباط با ما</h1>
+  </header>
+
+  <!-- بخش کلیدهای میانبر -->
+  <section>
+    <a href="https://wa.me/989137700207" target="_blank" class="button whatsapp">
+      چت در واتساپ
+    </a>
+    <a href="https://www.instagram.com/sheidajalali.nail/" target="_blank" class="button instagram">
+      پیج اینستاگرام
+    </a>
+    <a href="tel:+989137700207" class="button contact">
+      افزودن شماره تماس
+    </a>
+  </section>
+</body>
+</html>
